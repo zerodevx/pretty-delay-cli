@@ -2,7 +2,7 @@
 
 > Delay execution for a given amount of seconds, but prettily.
 
-![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/72746714-c49af900-3bed-11ea-8ee8-89a685fdf362.gif)
+![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/72748890-74bf3080-3bf3-11ea-8c6a-1f388a10c2dc.gif)
 
 ```
  ▄▄▄▄▄▄▄▄▄     ▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄
