@@ -166,6 +166,7 @@ const output = num => {
 };
 
 (async () => {
+  process.stdout.write('\n');
   if (seconds < 1) {
     output(1);
     await wait(seconds);
