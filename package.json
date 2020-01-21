@@ -1,6 +1,6 @@
 {
 	"name": "pretty-delay-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Delay execution for a given amount of seconds, but prettily.",
 	"license": "MIT",
 	"repository": "zerodevx/pretty-delay-cli",
