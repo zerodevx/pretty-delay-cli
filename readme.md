@@ -2,10 +2,10 @@
 
 > Delay execution for a given amount of seconds, but prettily.
 
-![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/72748890-74bf3080-3bf3-11ea-8c6a-1f388a10c2dc.gif)
+![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/72782159-0c596900-3c5e-11ea-9697-45d116816102.gif)
 
 ```
- ▄▄▄▄▄▄▄▄▄     ▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄
+  ▄▄▄▄▄▄▄▄▄     ▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄
  ▐░░░░░░░░░▌  ▄█░░░░▌    ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
 ▐░█░█▀▀▀▀▀█░▌▐░░▌▐░░▌     ▀▀▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌
 ▐░▌▐░▌    ▐░▌ ▀▀ ▐░░▌              ▐░▌          ▐░▌▐░▌       ▐░▌
@@ -67,10 +67,13 @@ MIT
 
 ## Changelog
 
+**v1.0.1 - 2020-01-21**
+* Add another line-break when starting.
+
 **v1.0.0 - 2020-01-20**
 * BREAKING: All flags are DEPRECATED, because things shouldn't be so complicated.
 * Display countdown using pretty ascii-art instead.
 * Fixed tests.
 
-**v0.1.0 - 2019-08-13:**
+**v0.1.0 - 2019-08-13**
 * Initial fork and release.
