@@ -4,7 +4,10 @@
 
 ![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/72782159-0c596900-3c5e-11ea-9697-45d116816102.gif)
 
-Cross-platform countdown timer with pretty ascii-art.
+Cross-platform countdown timer - similar to the \*nix
+[`sleep`](<https://en.wikipedia.org/wiki/Sleep_(Unix)>) command - but with pretty ascii-art.
+Originally a fork of [`delay-cli`](https://github.com/sindresorhus/delay-cli), but rewritten to be
+ESM-only with zero dependencies.
 
 ## Install
 
@@ -47,7 +50,7 @@ $ npm i -g pretty-delay-cli
  ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌    ▐░▌      ▐░█▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄█░▌
 ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌   ▐░▌       ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀     ▀         ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀
- ```
+```
 
 ## Development
 
