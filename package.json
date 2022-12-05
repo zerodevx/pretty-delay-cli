@@ -1,27 +1,31 @@
 {
   "name": "pretty-delay-cli",
-  "version": "2.0.0",
+  "version": "3.0.0-next.1",
   "description": "Delay execution for a given amount of seconds, but prettily",
   "author": "Jason Lee <jason@zerodevx.com>",
-  "type": "module",
-  "exports": "./index.js",
-  "bin": {
-    "delay": "./cli.js"
-  },
   "scripts": {
     "test": "prettier --write . && eslint . && ava"
   },
   "devDependencies": {
-    "ava": "^4.0.1",
-    "eslint": "^8.10.0",
+    "ava": "^5.1.0",
+    "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "execa": "^6.1.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.8.0"
   },
-  "engines": {
-    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "delay": "./cli.js"
   },
   "files": [
+    "./index.*",
     "./cli.js"
   ],
   "license": "ISC",
