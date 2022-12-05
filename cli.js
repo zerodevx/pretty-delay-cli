@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import delay from './index.js'
+import { promises as fs } from 'node:fs'
 
 const arg = process.argv[2]
 const help = `
@@ -11,6 +12,12 @@ const help = `
 `
 if (!arg) {
   console.log(help)
+  process.exit()
+}
+
+if (['--version', '-V'].includes(arg)) {
+  const { version } = JSON.parse(await fs.readFile('package.json'))
+  console.log(version)
   process.exit()
 }
 
